@@ -1,0 +1,1075 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.title{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.title2{
+  margin-top: 10px;
+}
+
+.Nav-bar{
+  display: flex;
+  gap: 60px;
+
+}
+
+.nav1, .nav2, .nav3 {
+   color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav1:hover, .nav2:hover, .nav3:hover {
+  color: white;
+  background-color: #ab44c8;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+
+.end{
+ display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn1{
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: rgb(154, 75, 211);
+  color: white;
+  border: 1px solid ;
+  font-weight: 600;
+}
+
+.btn1:hover{
+  background-color: rgb(133, 50, 192);
+}
+
+.images{
+  margin-top: 50px;
+  background-color: violet;
+  width:100%;
+  height: 400px;
+  background: linear-gradient(to right, #9333ea, #db2777);;
+}
+
+.con1{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 50px;
+}
+
+.con2{
+  font-weight: 600;
+  text-align: center;
+  margin-left: 30px;
+  color: white;
+  margin-top: 20px;
+}
+
+.btn2{
+  height: 50px;
+  width: 170px;
+  border-radius: 30px;
+  border: 1px solid white;
+  font-size: 20px;
+  color: rgb(146, 20, 196);
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 30px;
+}
+
+.btn2:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.con3{
+  text-align: center;
+}
+
+.tit1{
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.tit2{
+  font-weight: 500;
+  font-size: 20px;
+  color: gray;
+}
+
+.icon2{
+  background-color: rgb(227, 160, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+
+.icon22{
+  margin-top: 15px;
+}
+
+
+.h1{
+  font-size: 30px;
+}
+
+.h2{
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+.div1{
+  /* background-color: rgb(186, 112, 235); */
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+}
+
+.icon3{
+  background-color: rgb(227, 160, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+
+.icon23{
+  margin-top: 15px;
+}
+
+
+.h3{
+  font-size: 30px;
+}
+
+.h4{
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+.div2{
+  /* background-color: rgb(186, 112, 235); */
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+}
+
+.icon4{
+  background-color: rgb(227, 160, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+
+.icon24{
+  margin-top: 10px;
+}
+
+
+.h5{
+  font-size: 30px;
+}
+
+.h6{
+  font-size: 15px;
+  font-weight: 400;
+  color:black;
+}
+
+.div3{
+  /* background-color: rgb(186, 112, 235); */
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+}
+
+.div{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.gift-name{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.gift-sub{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
+.image{
+    height: 200px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.product{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 30px;
+  justify-content: space-evenly;
+}
+
+.menu{
+  /* background-color: rgb(162, 162, 162); */
+  width: 400px;
+  height: 350px;
+  border-radius: 20px;
+  border: 1px solid rgb(118, 32, 171);
+}
+
+.menu:hover{
+  transition: 0.3s;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 5px gray;
+}
+
+.name{
+  text-align: center;
+}
+.description{
+  text-align: center;
+}
+
+.btns{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.price{
+  margin-left: 20px;
+  color: rgb(125, 41, 204);
+}
+
+.button1{
+  width: 180px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(227, 208, 245);
+  color: rgb(100, 11, 184);
+  border: 0px solid; 
+  font-size: 16px;
+}
+
+.button1:hover{
+  background-color: rgb(224, 194, 252);
+}
+
+.button2{
+  width: 180px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(124, 40, 203);
+  color: white;
+  border: 0px solid;
+   font-size: 16px;
+}
+
+.button2:hover{
+  background-color: rgb(106, 25, 181);
+}
+
+.title3{
+  text-align: center;
+  margin-top: 60px;
+  font-size:xx-large;
+}
+
+.custom{
+  height: 150px;
+  width: 350px;
+  border-radius: 20px;
+  border: 1px solid rgb(141, 56, 201);
+  box-shadow: 2px 2px 2px rgb(173, 173, 173);
+}
+
+.review{
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cus1{
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cus2{
+  text-align: center;
+}
+
+.ending{
+  margin-top: 100px;
+  background-color: rgb(25, 25, 25);
+  width:100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+
+.end1{
+  color:white;
+  height: 200px;
+  width: 250px;
+}
+
+.sub-end{
+  margin-top: 30px;
+  color: silver;
+}
+
+
+.end2{
+  color:white;
+  height: 200px;
+  width: 250px;
+}
+
+.sub-end2{
+  color: silver;
+  margin-top: 30px;
+}
+
+.end3{
+  color:white;
+  height: 200px;
+  width: 250px;
+}
+
+.sub-end3{
+  color: silver;
+  margin-top: 30px;
+}
+
+.end4{
+  color:white;
+  height: 200px;
+  width: 250px;
+}
+
+.sub-end4{
+  color: silver;
+  margin-top: 30px;
+}
+
+
+.line{
+  color: silver;
+}
+
+
+.about1{
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(23, 23, 23);
+  font-size:40px;
+}
+
+.about2{
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  font-weight:400;
+  color: rgb(95, 95, 95);
+}
+
+.about3{
+  width: 500px;
+  margin-left: 100px;
+}
+
+.a1{
+  margin-top: 40px;
+}
+
+.a2 , .a3, .a4{
+  color: rgb(68, 67, 67);
+}
+
+.aboutImage{
+  height: 400px;
+  width: 600px;
+  border-radius: 30px;
+
+}
+
+.about4{
+  position: relative;
+  display: flex;
+  justify-content: end;
+  bottom: 370px;
+  margin-right: 100px;
+}
+
+.aboutDiv1{
+  /* background-color: rgb(186, 112, 235); */
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+
+.ABOUT{
+  margin-top: 80px;
+}
+
+
+.aboutIcon1{
+  background-color: rgb(227, 160, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.aboutIcon{
+  margin-top: 15px;
+}
+
+.a5{
+  font-weight:600;
+}
+
+.a6{
+  font-weight: 400;
+  color: rgb(83, 83, 83);
+}
+
+
+.aboutDiv2{
+  /* background-color: rgb(186, 112, 235); */
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+
+
+.aboutIcon2{
+  background-color: rgb(227, 160, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.aboutIcon01{
+  margin-top: 15px;
+}
+
+.a7{
+  font-weight:600;
+}
+
+.a8{
+  font-weight: 400;
+  color: rgb(83, 83, 83);
+}
+
+.aboutDiv3{
+  /* background-color: rgb(186, 112, 235); */
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+
+
+.aboutIcon3{
+  background-color: rgb(227, 160, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.aboutIcon02{
+  margin-top: 10px;
+}
+
+.a9{
+  font-weight:600;
+}
+
+.a10{
+  font-weight: 400;
+  color: rgb(83, 83, 83);
+}
+
+.aboutDiv4{
+  /* background-color: rgb(186, 112, 235); */
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+
+
+.aboutIcon4{
+  background-color: rgb(227, 160, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.aboutIcon03{
+  margin-top: 10px;
+}
+
+.a11{
+  font-weight:600;
+}
+
+.a12{
+  font-weight: 400;
+  color: rgb(83, 83, 83);
+}
+
+.AboutDivWhole{
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 40px;
+}
+
+
+.ab1{
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+}
+
+.aboutImg{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.wholediv{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 150px;
+}
+
+.wholediv1{
+  height: 300px;
+  width: 300px;
+}
+
+.wholediv2{
+  height: 300px;
+  width: 300px;
+}
+
+.wholediv3{
+  height: 300px;
+  width: 300px;
+}
+
+.aboutTitle{
+  position: relative;
+  bottom: 180px;
+}
+
+.subAbout{
+  text-align: center;
+}
+
+.subAbout1{
+  text-align: center;
+}
+
+.subAbout2{
+  text-align: center;
+}
+
+.aboutTitle{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aboutBox{
+  height: 100px;
+  width: 1000px;
+  margin-left: 190px;  
+  padding-top: 30px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-evenly;
+ background: linear-gradient(to right, rgb(108, 38, 174),rgb(231, 51, 189));
+ position: relative;
+ bottom: 90px;
+ color: white;
+}
+
+.contactTitle{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.contactPara{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(75, 75, 75);
+    font-size: 19px;
+}
+
+
+.contactTitle2{
+  margin-top: 70px;
+  margin-left: 150px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contact{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(227, 160, 255);
+}
+
+.contactImage{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.contactDisplay{
+  position: relative;
+  left: 70px;
+  bottom: 60px;
+}
+
+.contactDiv{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.contact1{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(227, 160, 255);
+}
+
+.contactImage1{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.contactDisplay1{
+  position: relative;
+  left: 70px;
+  bottom: 60px;
+}
+
+.contactDiv1{
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.contactDiv2{
+  margin-left: 150px;
+}
+.contactDiv3{
+  margin-left: 150px;
+
+}
+.contactDiv4{
+  margin-left: 150px;
+
+}
+
+.contactQues{
+  height: 200px;
+  width: 500px;
+}
+
+.quesTitle{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+
+
+.ques1{
+  font-weight: 500;
+}
+.ques2{
+  margin-top: 20px;
+  font-weight: 400;
+  color: rgb(74, 74, 74);
+}
+
+.quesDiv{
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.quesDiv2{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+  bottom: 30px;
+}
+
+.label{
+  height: 40px;
+  width: 450px;
+  border-radius: 10px;
+  border: 1px solid rgb(171, 25, 212);
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.label2{
+  margin-top: 10px;
+  height: 100px;
+  width: 450px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid rgb(171, 25, 212);
+  box-sizing: border-box;
+}
+
+
+.formDiv{
+  background:linear-gradient(rgb(227, 160, 255),rgb(239, 238, 239));
+  height: 550px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 30px 50px;
+  position: absolute;  
+  right: 50px;          
+  top: 200px; 
+}
+
+.EndContact{
+  width: 100%;
+}
+
+.map{
+  background-color: rgb(247, 247, 247);
+  height: 600px;
+  width: 700px;
+  margin-left: 350px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  text-align: center;
+  box-shadow: 2px 2px 3px gray;
+  
+}
+
+.mapTit{
+  padding-top: 30px;
+}
+
+.map1{
+  background-color: rgb(237, 237, 237);
+  width: 600px;
+  height: 450px;
+  margin-left: 50px;
+  margin-top: 40px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.mapTitle{
+  padding-top: 120px;
+  text-align: center;
+}
+
+.mapImage{
+  height: 450px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.mapContent{
+  position: relative;
+  bottom: 300px;
+}
+.aboutTitleContact{
+  margin-top: 10px;
+}
+
+
+.ContactAbout{
+  margin-top: 200px;
+}
+
+html, body {
+  overflow-x: hidden;  /* prevent horizontal scroll */
+}
+
+
+.submitButton{
+  width: 350px;
+  height: 40px;
+  margin-left: 55px;
+  background-color: #ab44c8;
+  color: white;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.submitButton:hover{
+  background-color: #9035aa;
+}
+
+input::placeholder{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  z-index: 1000;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.LoginPageDiv{
+  background: linear-gradient(to bottom right, #f3e8ff, #fce7f3) ;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+
+.loginPage{
+  background-color: white; 
+  width: 400px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+  box-shadow: 1px 1px  10px rgba(0,0,0,0.2);
+  margin-left: 500px;
+  /* margin: 0 auto; */
+}
+
+.loginTitle{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.loginTitle1{
+  font-size: 30px;
+}
+
+.loginForm{
+  margin-top: 30px;
+}
+
+.placeholder{
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 50px;
+  margin-top: 5px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.icon{
+  position: absolute;
+  left: 10px;
+  color: gray;
+  pointer-events: none;
+  margin-left: 520px;
+  margin-top: 13px;
+}
+
+.loginSub{
+  margin-left: 25px;
+}
+
+.iconEye{
+  margin-left: 330px;
+  position: relative;
+  bottom: 33px;
+  color: gray;
+}
+
+.rememberMe{
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+}
+
+.remember{
+  margin-left: 25px;
+}
+
+.forget{
+  margin-left: 230px;
+  position: relative;
+  bottom: 30px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.signIn{
+  width: 330px;
+  height: 40px;
+  margin-left: 35px;
+  border-radius: 8px;
+  border: 0px solid;
+  background-color:#9333ea;
+  color: white;
+}
+
+.loginEnd{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.in{
+  text-decoration: none;
+  color: #9d33ba;
+}
+
+.WholeSignIn{
+  background: linear-gradient(to bottom right, #f3e8ff, #fce7f3) ;
+  min-height: 100vh; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Signin{
+  background-color: white;
+  height: 660px;
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 1px 1px  10px rgba(0,0,0,0.2);
+  margin-left: 500px;
+  margin-bottom: 100px;
+}
+
+.SignInTitle{
+  text-align: center;
+}
+
+.SigninSub{
+  padding-top: 20px;
+}
+
+
+.signinLabel{
+  height: 40px;
+  width:300px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 45px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.SignupTitle{
+  margin-left: 20px;
+}
+
+.signinIcon{
+  position: absolute;
+  left: 10px;
+  color: gray;
+  pointer-events: none;
+  margin-left: 520px;
+  margin-top: 15px;
+}
+
+.createAccount{
+  width: 330px;
+  height: 40px;
+  margin-left: 35px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 0px solid;
+  background-color:#9333ea;
+  color: white;
+}
+
+.Signup-end{
+  margin-top: 20px;
+  text-align: center;
+}
